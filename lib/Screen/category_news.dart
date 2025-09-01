@@ -19,8 +19,8 @@ class _SelectedCategoryNewsState extends State<SelectedCategoryNews> {
     await news.getNews(widget.category);
     setState(() {
       isLoadin = false;
-      articles = news.dataStore;
     });
+    articles = news.dataStore;
   }
 
   @override

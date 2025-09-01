@@ -21,8 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
     await newsApi.getNews();
     setState(() {
       isLoadin = false;
-      articles = newsApi.dataStore;
     });
+    articles = newsApi.dataStore;
   }
 
   @override
