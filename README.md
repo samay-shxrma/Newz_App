@@ -1,4 +1,4 @@
-# myapp
+# Newz App
 
 A new Flutter project.
 
